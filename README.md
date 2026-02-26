@@ -6,6 +6,42 @@ Security: Never share raw tokens/secrets
 
 ---
 
+## Cover Infographic
+
+![OpenClaw setup cover](./openclaw-setup-assets/cover-infographic.svg)
+
+---
+
+## 10-Minute Quickstart
+
+Use this if you only need first-success setup.
+
+```bash
+# 1) Install
+npm install -g openclaw
+openclaw --version
+
+# 2) Start gateway
+openclaw gateway start
+openclaw gateway status
+
+# 3) Generate token (manual)
+claude setup token
+
+# 4) Onboard
+# Open onboarding -> choose Claude -> paste token -> Connect
+
+# 5) Verify
+openclaw status
+```
+
+Pass condition:
+- Gateway = running
+- Provider = connected
+- Session responds
+
+---
+
 ## Visual Flow (Share This First)
 
 ![OpenClaw setup flow](./openclaw-setup-assets/00-setup-flow-overview.svg)

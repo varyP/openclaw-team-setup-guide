@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='620'>
+<rect width='100%' height='100%' fill='#f8fafc'/>
+<text x='60' y='70' fill='#0f172a' font-size='42' font-family='Arial' font-weight='700'>OpenClaw Setup Flow (Mac + Claude Token)</text>
+<rect x='50' y='220' width='270' height='170' rx='18' fill='white' stroke='#94a3b8'/>
+<text x='66' y='275' fill='#0f172a' font-size='28' font-family='Arial' font-weight='700'>1 Install</text>
+<text x='66' y='320' fill='#334155' font-size='21' font-family='Menlo, monospace'>npm i -g openclaw</text>
+<text x='335' y='315' fill='#3b82f6' font-size='44' font-family='Arial'>→</text>
+<rect x='355' y='220' width='270' height='170' rx='18' fill='white' stroke='#94a3b8'/>
+<text x='371' y='275' fill='#0f172a' font-size='28' font-family='Arial' font-weight='700'>2 Gateway</text>
+<text x='371' y='320' fill='#334155' font-size='21' font-family='Menlo, monospace'>openclaw gateway start</text>
+<text x='640' y='315' fill='#3b82f6' font-size='44' font-family='Arial'>→</text>
+<rect x='660' y='220' width='270' height='170' rx='18' fill='white' stroke='#94a3b8'/>
+<text x='676' y='275' fill='#0f172a' font-size='28' font-family='Arial' font-weight='700'>3 Claude Token</text>
+<text x='676' y='320' fill='#334155' font-size='21' font-family='Menlo, monospace'>claude setup token</text>
+<text x='945' y='315' fill='#3b82f6' font-size='44' font-family='Arial'>→</text>
+<rect x='965' y='220' width='270' height='170' rx='18' fill='white' stroke='#94a3b8'/>
+<text x='981' y='275' fill='#0f172a' font-size='28' font-family='Arial' font-weight='700'>4 Onboard</text>
+<text x='981' y='320' fill='#334155' font-size='21' font-family='Menlo, monospace'>paste token + connect</text>
+<text x='1250' y='315' fill='#3b82f6' font-size='44' font-family='Arial'>→</text>
+<rect x='1270' y='220' width='270' height='170' rx='18' fill='white' stroke='#94a3b8'/>
+<text x='1286' y='275' fill='#0f172a' font-size='28' font-family='Arial' font-weight='700'>5 Verify</text>
+<text x='1286' y='320' fill='#334155' font-size='21' font-family='Menlo, monospace'>openclaw status</text>
+</svg>
